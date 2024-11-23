@@ -86,3 +86,60 @@ footer {
         padding: 0.8em;
     }
 }
+/* Header och logotyp */
+header {
+    text-align: center;
+    background-color: #4caf50;
+    padding: 20px;
+}
+header img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+header h1 {
+    color: white;
+    margin: 10px 0;
+}
+header p {
+    color: #dfffd7;
+    margin: 0;
+}
+
+/* Hero-sektion */
+#hero {
+    background-image: url('images/cleaning-hero.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+#hero div {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+#hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+#hero p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+#hero a {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#hero a:hover {
+    background-color: #3e8e41;
+}
