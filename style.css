@@ -25,13 +25,17 @@ body {
     color: white;
     padding: 20px;
     border-radius: 10px;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 .hero-logo {
-    max-width: 100px;
-    display: block;
-    margin: 0 auto 10px;
+    max-width: 80px;
+    height: auto;
+}
+.hero-text {
+    text-align: left;
 }
 #hero h1 {
     font-size: 2.5em;
@@ -87,8 +91,12 @@ footer {
     #hero {
         height: 300px;
     }
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
     .hero-logo {
-        max-width: 80px;
+        max-width: 60px;
     }
     #hero h1 {
         font-size: 2em;
