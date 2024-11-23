@@ -1,4 +1,4 @@
-/* Grundläggande stil */
+/* Allmän styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,9 +10,9 @@ body {
 
 /* Header */
 header {
-    background-color: #4caf50;
     text-align: center;
-    padding: 20px; /* Sammanfört från duplicerad kod */
+    background-color: #4caf50;
+    padding: 20px;
 }
 header img {
     max-width: 150px;
@@ -21,61 +21,16 @@ header img {
 }
 header h1 {
     color: white;
-    font-size: 2.5em;
-    margin: 10px 0; /* Kombinerat regler för margin */
+    margin: 10px 0;
 }
 header p {
     color: #dfffd7;
-    margin: 0.5em 0 0; /* Kombinerad margin från duplicerad regel */
-    font-size: 1.2em;
-}
-
-/* Navigering */
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #333;
-}
-nav a {
-    color: white;
-    padding: 1em;
-    text-decoration: none;
-    font-size: 1.1em;
-    text-align: center; /* Viktigt för responsivitet */
-}
-nav a:hover {
-    background-color: #575757;
-}
-
-/* Sektioner */
-section {
-    padding: 2em;
-    margin: 0 auto;
-    max-width: 800px;
-    text-align: center;
-}
-section h2 {
-    color: #4caf50;
-    font-size: 2em;
-    margin-bottom: 0.5em;
-}
-
-/* Kort och kortlayout */
-.service-card {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1em;
-    margin: 1em 0;
-    text-align: left;
-}
-.service-card h3 {
-    color: #4caf50;
-    margin-top: 0;
+    margin: 0;
 }
 
 /* Hero-sektion */
 #hero {
+    background-image: url('images/hero-kitchen.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -100,6 +55,37 @@ section h2 {
     margin: 10px 0;
 }
 
+/* Sektioner */
+section {
+    padding: 2em;
+    text-align: center;
+}
+section h2 {
+    color: #4caf50;
+    margin-bottom: 1em;
+}
+.service-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em 0;
+    text-align: left;
+}
+.service-card h3 {
+    color: #4caf50;
+}
+
+/* Kontakt-sektion */
+#contact {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+#contact p {
+    margin: 10px 0;
+}
+
 /* Footer */
 footer {
     background-color: #333;
@@ -111,10 +97,10 @@ footer {
 
 /* Responsiv design */
 @media (max-width: 768px) {
-    nav {
-        flex-direction: column;
+    #hero {
+        height: 300px;
     }
-    nav a {
-        padding: 0.8em;
+    header img {
+        max-width: 100px;
     }
 }
