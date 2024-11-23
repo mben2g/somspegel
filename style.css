@@ -44,7 +44,6 @@ nav a:hover, nav a.active {
     align-items: center;
     justify-content: center;
     position: relative;
-    text-align: center; /* Centrerar texten */
 }
 .hero-content {
     background-color: rgba(0, 0, 0, 0.5); /* Mörk overlay */
@@ -52,14 +51,17 @@ nav a:hover, nav a.active {
     padding: 20px;
     border-radius: 10px;
     display: flex;
-    flex-direction: column; /* Staplar logotyp, rubrik och text */
-    align-items: center; /* Centrerar horisontellt */
-    gap: 10px; /* Avstånd mellan element */
+    align-items: center; /* Vertikal inriktning av logotyp och text */
+    gap: 20px; /* Mellanrum mellan logotyp och text */
 }
 .hero-logo {
     max-width: 100px;
     height: auto;
-    margin-bottom: 10px; /* Avstånd mellan logotyp och rubrik */
+}
+.hero-text {
+    display: flex;
+    flex-direction: column; /* Staplar rubrik och text */
+    text-align: center; /* Centrerar rubrik och text */
 }
 .hero-text h1 {
     font-size: 2.5em;
@@ -67,7 +69,7 @@ nav a:hover, nav a.active {
 }
 .hero-text p {
     font-size: 1.2em;
-    margin: 0;
+    margin: 10px 0 0;
 }
 /* Footer */
 footer {
