@@ -35,6 +35,7 @@ nav a:hover, nav a.active {
 }
 
 /* Hero-sektion */
+/* Hero-sektion */
 #hero {
     background-image: url('images/hero-kitchen.jpg');
     background-size: cover;
@@ -44,27 +45,32 @@ nav a:hover, nav a.active {
     align-items: center;
     justify-content: center;
     position: relative;
-    text-align: center;
+    text-align: left;
 }
 .hero-content {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 20px;
     border-radius: 10px;
-    display: inline-block;
+    display: flex;
+    align-items: center; /* Vertikal inriktning */
+    gap: 20px; /* Mellanrum mellan logotyp och text */
 }
 .hero-logo {
-    max-width: 80px;
+    max-width: 100px;
     height: auto;
 }
-.hero-text h1, .hero-text p {
-    text-align: center;
+.hero-text {
+    text-align: left;
+}
+.hero-text h1 {
+    font-size: 2.5em;
+    margin: 0 0 10px; /* Avstånd mellan rubrik och text */
 }
 .hero-text p {
-    margin-top: 5px;
     font-size: 1.2em;
+    margin: 0;
 }
-
 /* Footer */
 footer {
     background-color: #333;
