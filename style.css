@@ -118,7 +118,7 @@ nav {
     font-size: 1.5em;
     color: white;
     text-decoration: none;
-    display: none; /* Dold på stora skärmar */
+    display: none; /* Visa inte hamburgermenyn på stora skärmar */
     cursor: pointer;
 }
 .menu {
@@ -144,8 +144,8 @@ nav {
 /* Hamburgermeny för små skärmar */
 @media (max-width: 768px) {
     .menu {
-        display: none; /* Dölj menyn som standard på små skärmar */
-        flex-direction: column;
+        display: none; /* Dölj horisontell meny som standard */
+        flex-direction: column; /* Gör menyn vertikal */
         background-color: #333;
         position: absolute;
         top: 50px;
@@ -157,10 +157,10 @@ nav {
     .menu li {
         text-align: left;
     }
-    .menu-toggle {
-        display: block; /* Visa hamburgermenyn */
-    }
     .menu.show {
         display: flex; /* Visa menyn när den är öppen */
+    }
+    .menu-toggle {
+        display: block; /* Visa hamburgermenyn */
     }
 }
