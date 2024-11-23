@@ -34,6 +34,19 @@ nav a:hover, nav a.active {
     background-color: #555;
 }
 
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+section:nth-child(even) {
+    background-color: #f9f9f9; /* Ljusgrå bakgrund */
+}
+section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
 /* Hero-sektion */
 #hero {
     background-image: url('images/hero-kitchen.jpg');
