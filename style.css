@@ -118,13 +118,14 @@ nav {
     font-size: 1.5em;
     color: white;
     text-decoration: none;
-    display: none; /* Dold på större skärmar */
+    display: none; /* Dold på stora skärmar */
+    cursor: pointer;
 }
 .menu {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: flex; /* Visa menyn horisontellt på stora skärmar */
     gap: 15px;
 }
 .menu li {
@@ -143,7 +144,7 @@ nav {
 /* Hamburgermeny för små skärmar */
 @media (max-width: 768px) {
     .menu {
-        display: none; /* Dölj menyn som standard */
+        display: none; /* Dölj menyn som standard på små skärmar */
         flex-direction: column;
         background-color: #333;
         position: absolute;
