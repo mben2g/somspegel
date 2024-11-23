@@ -1,16 +1,30 @@
+/* Grundläggande stil */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
+    background-color: #f9f9f9;
     color: #333;
+    line-height: 1.6;
 }
+
+/* Header */
 header {
     background-color: #4caf50;
     color: white;
     text-align: center;
     padding: 1.5em 0;
 }
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+header p {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
+}
+
+/* Navigering */
 nav {
     display: flex;
     justify-content: center;
@@ -20,15 +34,55 @@ nav a {
     color: white;
     padding: 1em;
     text-decoration: none;
+    font-size: 1.1em;
 }
 nav a:hover {
     background-color: #575757;
 }
-@media (max-width: 600px) {
+
+/* Sektioner */
+section {
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+section h2 {
+    color: #4caf50;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+/* Kort och kortlayout */
+.service-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em 0;
+    text-align: left;
+}
+.service-card h3 {
+    color: #4caf50;
+    margin-top: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+/* Responsiv design */
+@media (max-width: 768px) {
     nav {
         flex-direction: column;
     }
     nav a {
         text-align: center;
+        padding: 0.8em;
     }
 }
