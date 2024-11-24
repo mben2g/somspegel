@@ -136,8 +136,10 @@ section .content {
 }
 
 .hero-logo {
-    max-width: 200px; /* Begränsa logotypens bredd */
+    max-width: 200px; /* Begränsar logotypens storlek */
     height: auto; /* Bevarar proportionerna */
+    margin-left: 0; /* Ta bort eventuell extra marginal till vänster */
+    padding: 0; /* Ta bort extra padding */
 }
 
 .hero-text {
