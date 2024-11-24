@@ -75,6 +75,7 @@ section h2 {
 
 .hero-text {
     display: flex;
+    text-align: center; /* Centerjustera texten */
     flex-direction: column; /* Staplar rubrik och text */
     text-align: left; /* Justera text till vänster för bättre balans */
     line-height: 1.5; /* Förbättra läsbarheten */
