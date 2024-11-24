@@ -75,20 +75,20 @@ section h2 {
 
 .hero-text {
     display: flex;
-    text-align: center; /* Centerjustera texten */
-    flex-direction: column; /* Staplar rubrik och text */
-    text-align: left; /* Justera text till vänster för bättre balans */
-    line-height: 1.5; /* Förbättra läsbarheten */
+    flex-direction: column; /* Staplar rubrik och text vertikalt */
+    align-items: center; /* Centrerar text och rubrik horisontellt */
+    text-align: center; /* Centrerar själva texten */
+    line-height: 1.5; /* Förbättrar läsbarheten */
 }
 
 .hero-text h1 {
     font-size: 2.5em;
-    margin: 0 0 10px; /* Lägg till avstånd under rubriken */
+    margin: 0 0 10px; /* Avstånd mellan rubrik och text */
 }
 
 .hero-text p {
     font-size: 1.2em;
-    margin: 5px 0; /* Skapa mer luft mellan stycken */
+    margin: 5px 0; /* Skapar utrymme mellan stycken */
 }
 /* Specifika hero-bilder */
 body#index #hero {
