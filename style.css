@@ -64,7 +64,7 @@ section h2 {
     border-radius: 10px;
     display: flex;
     align-items: center; /* Vertikal inriktning av logotyp och text */
-    gap: 20px; /* Mellanrum mellan logotyp och text */
+    gap: 0px; /* Mellanrum mellan logotyp och text */
 }
 .hero-logo {
     max-width: 200px;
