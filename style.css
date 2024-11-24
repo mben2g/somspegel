@@ -83,6 +83,22 @@ section h2 {
     font-size: 1.2em;
     margin: 10px 0 0;
 }
+/* Specifika hero-bilder */
+body#index #hero {
+    background-image: url('images/hero-kitchen.png');
+}
+body#tjanster #hero {
+    background-image: url('images/thanster.png');
+}
+body#om-oss #hero {
+    background-image: url('images/about-us.png');
+}
+body#priser #hero {
+    background-image: url('images/priser.png');
+}
+body#kontakt #hero {
+    background-image: url('images/kontakt.png');
+}
 /* Footer */
 footer {
     background-color: #333;
