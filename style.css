@@ -69,6 +69,8 @@ section h2 {
 .hero-logo {
     max-width: 100px;
     height: auto;
+    opacity: 0.8; /* Gör logotypen genomskinlig */
+    margin-bottom: 15px;
 }
 .hero-text {
     display: flex;
