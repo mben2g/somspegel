@@ -85,7 +85,7 @@ section h2 {
 }
 /* Specifika hero-bilder */
 body#index #hero {
-    background-image: url('images/hero-kitchen.jpg');
+    background-image: url('images/hero-kitchen2.jpg');
 }
 body#tjanster #hero {
     background-image: url('images/tjanster.png');
