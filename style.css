@@ -67,7 +67,7 @@ section h2 {
     gap: 20px; /* Mellanrum mellan logotyp och text */
 }
 .hero-logo {
-    max-width: 100px;
+    max-width: 200px;
     height: auto;
     margin-bottom: 15px;
 }
