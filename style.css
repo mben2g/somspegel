@@ -49,7 +49,6 @@ section h2 {
 }
 /* Hero-sektion */
 #hero {
-    background-image: url('images/hero-kitchen.jpg');
     background-size: cover;
     background-position: center;
     height: 500px;
