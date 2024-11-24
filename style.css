@@ -125,7 +125,7 @@ section .content {
 .hero-content {
     background-color: rgba(51, 53, 55, 0.8); /* Mörk overlay */
     color: white; /* Vit text */
-    padding: 20px 120px; /* Padding med plats för högerjustering */
+    padding: 20px 20px; /* Padding med plats för högerjustering */
     border-radius: 10px; /* Rundade hörn */
     display: flex; /* Flexbox för att placera logotyp och text sida vid sida */
     align-items: center; /* Vertikal centrering */
