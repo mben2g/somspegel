@@ -34,18 +34,41 @@ nav a:hover, nav a.active {
     background-color: #555;
 }
 
+/* Generell styling för sektioner */
 section {
     padding: 40px 20px;
     margin: 20px 0;
-    text-align: center;
-}
-section:nth-child(even) {
-    background-color: #f9f9f9; /* Ljusgrå bakgrund */
+    text-align: left; /* Justera text till vänster för mer balanserad layout */
 }
 section h2 {
     font-size: 2em;
     color: #333;
     margin-bottom: 20px;
+}
+
+/* Styling för listor */
+section ul, section ol {
+    margin: 10px 0 10px 20px; /* Avstånd till vänster och mellan punkter */
+    padding: 0;
+    list-style-position: inside; /* Håller listpunkter nära texten */
+}
+
+/* Styling för tabeller */
+section table {
+    width: 100%; /* Tabellen fyller sektionen */
+    border-collapse: collapse;
+    margin: 20px 0; /* Avstånd ovanför och under tabellen */
+}
+
+section table th, section table td {
+    border: 1px solid #ddd; /* Lägg till gränser för cellerna */
+    padding: 10px; /* Avstånd inuti cellerna */
+    text-align: left; /* Text i celler justeras till vänster */
+}
+
+section table th {
+    background-color: #f4f4f4; /* Ljus bakgrund för rubrikrader */
+    font-weight: bold; /* Gör rubriken tydlig */
 }
 /* Hero-sektion */
 #hero {
