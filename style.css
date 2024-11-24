@@ -57,31 +57,37 @@ section h2 {
     justify-content: center;
     position: relative;
 }
+
 .hero-content {
-    background-color: rgba(51,53,55,0.8); /* Mörk overlay */
+    background-color: rgba(51, 53, 55, 0.8); /* Mörk overlay */
     color: white;
-    padding: 20px;
+    padding: 20px 40px; /* Öka padding på sidorna för mer luft */
     border-radius: 10px;
     display: flex;
     align-items: center; /* Vertikal inriktning av logotyp och text */
-    gap: 0px; /* Mellanrum mellan logotyp och text */
+    gap: 20px; /* Mer mellanrum mellan logotyp och text */
 }
+
 .hero-logo {
     max-width: 200px;
     height: auto;
 }
+
 .hero-text {
     display: flex;
     flex-direction: column; /* Staplar rubrik och text */
-    text-align: center; /* Centrerar rubrik och text */
+    text-align: left; /* Justera text till vänster för bättre balans */
+    line-height: 1.5; /* Förbättra läsbarheten */
 }
+
 .hero-text h1 {
     font-size: 2.5em;
-    margin: 0;
+    margin: 0 0 10px; /* Lägg till avstånd under rubriken */
 }
+
 .hero-text p {
     font-size: 1.2em;
-    margin: 10px 0 0;
+    margin: 5px 0; /* Skapa mer luft mellan stycken */
 }
 /* Specifika hero-bilder */
 body#index #hero {
