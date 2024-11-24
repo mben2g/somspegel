@@ -127,25 +127,23 @@ section .content {
     color: white; /* Vit text */
     padding: 20px 120px; /* Padding med plats för högerjustering */
     border-radius: 10px; /* Rundade hörn */
-    display: flex; /* Flexbox för att centrera innehållet */
-    flex-direction: column; /* Staplar logotyp och text vertikalt */
-    align-items: center; /* Centrerar innehåll horisontellt */
-    justify-content: center; /* Centrerar innehåll vertikalt */
-    text-align: center; /* Centrerar texten i textrutan */
+    display: flex; /* Flexbox för att placera logotyp och text sida vid sida */
+    align-items: center; /* Vertikal centrering */
+    justify-content: center; /* Horisontell centrering av hela innehållet */
     gap: 20px; /* Skapar mellanrum mellan logotyp och text */
     max-width: 1200px; /* Begränsar bredden på innehållet */
-    margin: 0 auto; /* Centrera textrutan horisontellt */
+    margin: 0 auto; /* Centrera hela textrutan horisontellt */
 }
+
 .hero-logo {
-    max-width: 200px;
-    height: auto;
+    max-width: 200px; /* Begränsa logotypens bredd */
+    height: auto; /* Bevarar proportionerna */
 }
 
 .hero-text {
-    display: flex; /* Flexbox för text */
-    flex-direction: column; /* Staplar rubrik och stycken */
-    align-items: flex-start; /* Justerar text till vänster */
-    text-align: left; /* Gör texten vänsterjusterad */
+    display: flex; /* Flexbox för textinnehåll */
+    flex-direction: column; /* Staplar rubrik och stycken vertikalt */
+    text-align: center; /* Centrerar texten */
     line-height: 1.5; /* För bättre läsbarhet */
 }
 
