@@ -112,10 +112,11 @@ section .content {
 /* Hero-sektion */
 #hero {
     width: 100%; /* Täcker hela sidbredden */
-    height: 500px; /* Justera höjden vid behov */
-    background-size: cover; /* Skala bakgrundsbilden korrekt */
-    background-position: center; /* Centrerad bakgrundsbild */
-    display: flex; /* Flexbox för att centrera innehåll */
+    max-width: none; /* Åsidosätter den generella max-bredden */
+    height: 500px; /* Justera höjden efter behov */
+    background-size: cover; /* Skalar bakgrundsbilden korrekt */
+    background-position: center; /* Centrerar bakgrundsbilden */
+    display: flex; /* Flexbox för centrering av innehåll */
     align-items: center; /* Vertikal centrering */
     justify-content: center; /* Horisontell centrering */
     position: relative;
