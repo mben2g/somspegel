@@ -177,11 +177,38 @@ body#kontakt #hero {
 }
 /* Footer */
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-    margin-top: 2em;
+    background-color: #333; /* Mörk bakgrund */
+    color: white; /* Vit textfärg */
+    text-align: center; /* Centrerar text */
+    padding: 2em 1em; /* Avstånd inuti foten */
+    display: flex;
+    flex-direction: column; /* Staplar innehållet på små skärmar */
+    gap: 1em; /* Skapar mellanrum mellan rader */
+    border-top: 2px solid #555; /* Subtil linje ovanför foten */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); /* Skugga för djup */
+}
+
+footer p {
+    margin: 0.5em 0; /* Avstånd mellan stycken */
+}
+
+/* Länkar i foten */
+footer a {
+    color: #ffcc00; /* Ljusgul färg som är lättläst på mörk bakgrund */
+    text-decoration: none; /* Ingen understrykning som standard */
+}
+
+footer a:hover {
+    color: #fff; /* Vit färg vid hovring */
+    text-decoration: underline; /* Understrykning vid hovring */
+}
+
+/* Responsiv layout för foten */
+@media (min-width: 768px) {
+    footer {
+        flex-direction: row; /* Gör innehållet horisontellt på större skärmar */
+        justify-content: space-around; /* Sprider ut innehållet jämnt */
+    }
 }
 
 @media (max-width: 768px) {
