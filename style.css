@@ -122,37 +122,39 @@ section .content {
 }
 
 .hero-content {
-    background-color: rgba(51, 53, 55, 0.8); /* Mörk overlay */
-    color: white;
-    padding: 20px 120px 20px 20px; /* Ökade endast höger padding */
-    border-radius: 10px;
-    display: flex;
-    align-items: center; /* Vertikal inriktning av logotyp och text */
-    gap: 20px; /* Mer mellanrum mellan logotyp och text */
+    background-color: rgba(51, 53, 55, 0.8); /* Mörk overlay för textbakgrunden */
+    color: white; /* Vit text */
+    padding: 20px 120px 20px 20px; /* Högerpadding på 120px */
+    border-radius: 10px; /* Rundade hörn */
+    display: flex; /* Flexbox för text och logotyp */
+    align-items: center; /* Vertikal inriktning */
+    gap: 20px; /* Mellanrum mellan logotyp och text */
+    max-width: 1200px; /* Begränsar bredden på textrutan */
+    margin: 0 auto; /* Centrera textrutan horisontellt */
 }
-
 .hero-logo {
     max-width: 200px;
     height: auto;
 }
 
 .hero-text {
-    display: flex;
-    flex-direction: column; /* Staplar rubrik och text vertikalt */
-    align-items: center; /* Centrerar text och rubrik horisontellt */
-    text-align: center; /* Centrerar själva texten */
-    line-height: 1.5; /* Förbättrar läsbarheten */
+    display: flex; /* Flexbox för text */
+    flex-direction: column; /* Staplar rubrik och stycken */
+    align-items: flex-start; /* Justerar text till vänster */
+    text-align: left; /* Gör texten vänsterjusterad */
+    line-height: 1.5; /* För bättre läsbarhet */
 }
 
 .hero-text h1 {
-    font-size: 2.5em;
-    margin: 0 0 10px; /* Avstånd mellan rubrik och text */
+    font-size: 2.5em; /* Rubrikstorlek */
+    margin: 0 0 10px; /* Avstånd under rubriken */
 }
 
 .hero-text p {
-    font-size: 1.2em;
-    margin: 5px 0; /* Skapar utrymme mellan stycken */
+    font-size: 1.2em; /* Styckestorlek */
+    margin: 5px 0; /* Avstånd mellan stycken */
 }
+
 /* Specifika hero-bilder */
 body#index #hero {
     background-image: url('images/hero-kitchen2.jpg');
