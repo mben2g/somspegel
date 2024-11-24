@@ -58,7 +58,7 @@ section h2 {
     position: relative;
 }
 .hero-content {
-    background-color: rgba(0, 0, 0, 0.5); /* Mörk overlay */
+    background-color: rgba(51,53,55,255); /* Mörk overlay */
     color: white;
     padding: 20px;
     border-radius: 10px;
