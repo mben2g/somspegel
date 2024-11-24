@@ -111,12 +111,13 @@ section .content {
 }
 /* Hero-sektion */
 #hero {
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%; /* Täcker hela sidbredden */
+    height: 500px; /* Justera höjden vid behov */
+    background-size: cover; /* Skala bakgrundsbilden korrekt */
+    background-position: center; /* Centrerad bakgrundsbild */
+    display: flex; /* Flexbox för att centrera innehåll */
+    align-items: center; /* Vertikal centrering */
+    justify-content: center; /* Horisontell centrering */
     position: relative;
 }
 
