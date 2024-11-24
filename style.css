@@ -61,7 +61,7 @@ section h2 {
 .hero-content {
     background-color: rgba(51, 53, 55, 0.8); /* Mörk overlay */
     color: white;
-    padding: 20px 40px; /* Öka padding på sidorna för mer luft */
+    padding: 20px 40px 20px 20px; /* Ökade endast höger padding */
     border-radius: 10px;
     display: flex;
     align-items: center; /* Vertikal inriktning av logotyp och text */
